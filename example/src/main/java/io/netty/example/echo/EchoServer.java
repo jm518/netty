@@ -70,7 +70,7 @@ public final class EchoServer {
                  }
              });
 
-            // Start the server.
+            // Start the server.启动
             ChannelFuture f = b.bind(PORT).sync();
 
             // Wait until the server socket is closed.
